@@ -1,0 +1,1 @@
+C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.theartofdev.edmodo\android-image-cropper\2.7.0\d61e61209d29024c87dd7104977c51102923f787

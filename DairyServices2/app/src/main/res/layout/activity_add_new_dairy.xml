@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewDairyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/update_account_settings_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add New Dairy"
+                        android:textColor="@android:color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dairy_profile_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/profile"
+            android:layout_below="@+id/app_bar_settings"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/dairy_image_change_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Dairy Image"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/dairy_profile_image"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/dairy_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_image_change_btn"
+            android:hint="Phone Number..."
+            android:inputType="phone"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/dairy_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_phone_number"
+            android:hint="Dairy Name"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/dairy_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_name"
+            android:hint="Password"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/dairy_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_password"
+            android:hint="Address..."
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/dairy_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_address"
+            android:hint="Dairy Description"
+            android:layout_margin="15dp"
+
+            android:padding="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/add_dairy_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dairy_info"
+            android:text="Add Dairy"
+            android:background="@drawable/buttons"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            />
+    </RelativeLayout>
+</ScrollView>

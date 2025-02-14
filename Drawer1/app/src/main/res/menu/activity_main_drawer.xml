@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_black_24dp"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_room"
+            android:icon="@drawable/seller"
+            android:title="Our Sellers" />
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="@string/menu_class" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_business"
+                android:icon="@drawable/ic_business_center_black_24dp"
+                android:title="@string/action_business" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/logout_24dp"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/aboutblack_24dp"
+                android:title="@string/action_aboutus" />
+        </menu>
+    </item>
+</menu>

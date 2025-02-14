@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fadeScrollbars="false"
+    tools:actionBarNavMode="standard">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="140dp"
+        android:hint="Password"
+        android:password="true"
+        android:textIsSelectable="false" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phoneno"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:hint="Enter E-Mail"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/shape"
+        android:text="Log In"
+        android:defaultFocusHighlightEnabled="true"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_email_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="140dp"
+        app:srcCompat="@drawable/ic_lock_outline_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/forgot2"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="10dp"
+        android:focusableInTouchMode="true"
+        android:linksClickable="true"
+        android:text="Forget Password"
+        android:textColor="#0037FF"
+        android:textSize="14sp"
+        android:shadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:background="@color/white"/>
+
+</RelativeLayout>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/product_view">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slider1"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="05dp"
+            app:auto_cycle="true"
+            app:corner_radius="10" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Our Product"
+            android:paddingLeft="20dp"
+            android:textSize="22dp" />
+
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="205dp"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:text="Available Products"
+            android:textSize="22dp" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="235dp"
+            android:scrollbarThumbHorizontal="@null"
+            android:scrollbarThumbVertical="@null">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginTop="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Ghee"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/ghee" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Curd"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/curd" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Butter"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/butter" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Khoya"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/khoya" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Lassi"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/lassi" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/milk" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Milk Cream"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/milkcream" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c8"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Paneer"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/panir" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c9"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Yogurt"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/yogurt" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c10"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Amul Cheese"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/amulcheddarcheese" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c11"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Badam Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/badammilk" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c12"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Choco IceCream"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/chocolateicecream" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c13"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Coconut Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/coconutmilk" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c14"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Fresh Cheese"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/freshcheese" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c15"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Milk Papdi"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/glasses" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c16"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Mini Paneer Cubes"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton18"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/hats" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c17"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Ice Creams"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/headphoness" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c18"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Keser Dudh"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton20"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/laptops" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c19"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Masala Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton21"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/masalamilk" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c20"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Milk Powder"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton22"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/milkpowder" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c21"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Milk Shakes"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton23"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/milkshakes" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c22"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Sheep Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton24"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/purses_bags" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c23"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="White Coconut Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton25"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/whitecoconutmilk" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c24"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Matka Milk"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton26"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/tshirts" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c25"
+                    android:outlineSpotShadowColor="@color/colorPrimary"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="205dp">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:text="Yellow Cheese"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton27"
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/watches" />
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:outlineAmbientShadowColor="@android:color/white"
+    android:outlineSpotShadowColor="@android:color/white"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:outlineAmbientShadowColor="@android:color/white"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:background="@drawable/recyler_design">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgicon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_map_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgicon"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="22dp"
+            android:text="helllooo"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
